@@ -312,6 +312,96 @@ El servidor procesa la solicitud y devuelve los datos o ejecuta la acción solic
 
 <img width="300" height="168" alt="image" src="https://github.com/user-attachments/assets/6c085b26-26f0-403b-90a4-e3b47b9876e5" />
 
+
+2.- Diseño e implementación del backend
+
+- **Servidor**
+
+  El servidor es responsable de manejar las peticiones y respuestas HTTP, procesando las solicitudes de los clientes (navegadores, aplicaciones móviles, etc.) y enviando respuestas adecuadas. Además, el servidor se conecta a bases de datos como MySQL, PostgreSQL o MongoDB para consultar, almacenar y modificar datos según lo requiera la aplicación.
+
+- **Manejo de peticiones y respuestas HTTP**
+
+  El protocolo HTTP es la base de la comunicación entre cliente y servidor. El backend recibe solicitudes (GET, POST, PUT, DELETE, etc.) y responde con datos, páginas web o mensajes de error según corresponda.
+
+- **Conexión a bases de datos (MySQL, PostgreSQL, MongoDB)**
+
+  Los servidores suelen interactuar con sistemas de gestión de bases de datos para almacenar información persistente. MySQL y PostgreSQL son bases de datos relacionales, mientras que MongoDB es una base de datos NoSQL orientada a documentos.
+
+## 3.- Bases de datos
+
+- **Modelado de datos y relaciones**
+
+  El modelado de datos consiste en definir cómo se organizan y relacionan los datos dentro de la base de datos, usando tablas (en bases de datos relacionales) o documentos (en bases de datos NoSQL).
+
+- **ORM (Object Relational Mapping)**
+
+  Los ORM permiten mapear objetos del código a tablas de la base de datos, simplificando el acceso y manipulación de datos desde el backend. Ejemplos incluyen Sequelize (Node.js), SQLAlchemy (Python) y Doctrine (PHP).
+
+- **CRUD desde el backend**
+
+  CRUD son las operaciones básicas sobre los datos: Crear, Leer, Actualizar y Eliminar (Create, Read, Update, Delete), que el backend implementa para interactuar con la base de datos.
+
+## 4.- Seguridad básica en aplicaciones web
+
+- **Validación de formularios**
+
+  Antes de procesar datos enviados por el usuario, es fundamental validar los formularios para evitar errores y vulnerabilidades (por ejemplo, inyecciones de código).
+
+- **Autenticación y autorización**
+
+  La autenticación verifica la identidad del usuario (login), mientras que la autorización determina qué acciones puede realizar según sus permisos.
+
+---
+
+## Propósito de Aprendizaje 3: Implementar y desplegar una aplicación web funcional
+
+### 1.- Integración de frontend y backend
+
+- **Interfaz de usuario Frontend**
+  
+  El frontend presenta la interfaz visual con la que interactúa el usuario y consume los servicios ofrecidos por el backend a través de APIs.
+
+- **Manejo de API**
+
+  La comunicación entre frontend y backend se realiza mediante llamadas a APIs, generalmente siguiendo el estándar REST.
+
+- **Proceso de Solicitud y Respuesta de Backend**
+
+  El frontend envía solicitudes (por ejemplo, para obtener datos o crear registros), el backend las procesa y devuelve las respuestas adecuadas.
+
+### 2.- Almacenamiento en Servidor
+
+- **Tipos de servidores**
+
+  Existen distintos tipos de servidores para hospedar aplicaciones web, como servidores dedicados, VPS (Virtual Private Server), servidores compartidos, y servidores en la nube.
+
+- **Servidores y servicios de hosting**
+
+  Los servicios de hosting como Heroku, AWS, Netlify o Vercel permiten desplegar y mantener aplicaciones web en línea.
+
+- **Proveedores de Servicios de Almacenamiento**
+
+  Empresas como Amazon Web Services, Google Cloud, y Microsoft Azure ofrecen almacenamiento seguro y escalable para aplicaciones web.
+
+### 3.- Optimización y rendimiento
+
+- **Optimización de recursos (imágenes, scripts)**
+
+  Optimizar el tamaño de imágenes, minificar scripts y aplicar buenas prácticas mejora la velocidad de carga y la experiencia del usuario.
+
+- **Despliegue de aplicaciones web**
+
+  El despliegue consiste en publicar la aplicación web en un servidor para que esté accesible a los usuarios.
+
+- **CI/CD básico**
+
+  La integración y entrega continua (CI/CD) automatiza pruebas, integración y despliegue, facilitando la actualización y mantenimiento del proyecto.
+
+- **Documentación del proyecto**
+
+  Documentar el código, la arquitectura y las funcionalidades facilita la colaboración y el mantenimiento del proyecto.
+
+
 2.-Diseño e implementación del backend
 
 El diseño e implementación del backend implican la creación de la lógica del servidor, las bases de datos y las APIs que hacen funcionar una aplicación web, pero no son visibles para el usuario final. Esto incluye definir la arquitectura del servidor, desarrollar el código en lenguajes como Python o Java, diseñar esquemas de bases de datos, implementar la seguridad, gestionar la escalabilidad y conectar con servicios de terceros, todo ello con el objetivo de procesar solicitudes, almacenar datos y entregar respuestas al frontend. 
